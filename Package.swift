@@ -17,8 +17,8 @@ let package = Package(
             targets: ["LaunchDarklySwiftUI"]),
     ],
     dependencies: [
-        .package(name: "LaunchDarkly", url: "https://github.com/launchdarkly/ios-client-sdk.git", .upToNextMinor(from: "5.1.0")),
-        .package(name: "LaunchDarkly+Combine", url: "https://github.com/ericlewis/LaunchDarkly-Combine.git", .upToNextMinor(from: "1.0.0"))
+        .package(name: "LaunchDarkly", url: "https://github.com/launchdarkly/ios-client-sdk.git", from: "5.1.0"),
+        .package(name: "LaunchDarkly+Combine", url: "https://github.com/ericlewis/LaunchDarkly-Combine.git", from: "1.0.0")
     ],
     targets: [
         .target(
